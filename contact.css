@@ -1,0 +1,222 @@
+body {
+    font-family: sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.Navbar {
+    background-color: white;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.navbar-content {
+    margin: auto;
+}
+
+.navbar-content a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 1rem;
+}
+
+.profile__contact {
+    width: 100%;
+}
+
+.about-me {
+    background-color: #c7c7c7;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.about-me img {
+    width: 270px;
+    border-radius: 50%;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    
+}
+
+.name {
+    font-size: 37px;
+    font-weight: 900;
+    word-spacing: 2px;
+    margin-bottom: 5rem;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name-2 {
+    font-size: 27px;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    color: rgb(114, 114, 114);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.contact-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-description {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.contact-description h2 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+form {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder{
+    font-weight: bold; 
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+
+form input {
+    padding: 7px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 17px;
+    
+    letter-spacing: 1px;
+    color: rgb(83, 83, 83);
+}
+
+textarea {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 2px;
+    font-size: 17px;
+    outline: none;
+}
+
+textarea::placeholder {
+    font-weight: bold; 
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+
+    .name-2 {
+        display: none;
+    }
+
+    .profile__contact {
+        padding: 0.5rem;
+    }
+
+    .about-me {
+        height: 400px;
+        width: 100%;
+    }
+
+    button {
+        width: 400px;
+    }
+
+    .about-me img {
+        width: 220px;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .about-me .name {
+        position: relative;
+        bottom: 5rem;
+        margin: 0;
+    }
+
+
+    
+
+    button {
+        width: 100%;
+        padding: px;
+        background: black;
+        color: white;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        font-size: 17px;
+    }
+
+    .contact-description {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        max-width: none;
+        width: 100%;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-description h1 {
+        margin-bottom: 3rem;
+        font-size: 24px;
+    }
+
+   
+    
+    
+}
+
+
+

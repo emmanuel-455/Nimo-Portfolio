@@ -1,0 +1,342 @@
+body {
+    font-family: sans-serif;  
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.Navbar {
+    background-color: white;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.navbar-content {
+    margin: auto;
+}
+
+.navbar-content a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 1rem;
+}
+
+.About {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+}
+
+.about-me {
+    background-color: #c7c7c7;
+    width: 100%;
+    min-height: 100vh;
+    max-height: 150vh;
+    text-align: center;
+}
+
+.about-me img {
+    width: 270px;
+    border-radius: 50%;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-size: 37px;
+    font-weight: 900;
+    word-spacing: 2px;
+    margin-bottom: 5rem;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name-2 {
+    font-size: 27px;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    color: rgb(114, 114, 114);
+}
+
+.about-writeup {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    height: 85vh;
+    padding-left: 3.5rem;
+}
+
+.about-content {
+    height: 100%;
+}
+
+.hello {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.des {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 1.3rem;
+}
+
+.button {
+    margin-bottom: 2rem;
+}
+
+.resume {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    background-color: black;
+    padding: 9px 22px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.project {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    background-color: white;
+    
+    padding: 8px 21px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.resume a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.project a {
+    text-decoration: none;
+    color: black;
+}
+
+.dev-writeup {
+    width: 80%;
+    text-align: left;
+    font-size: 16px;
+    border-left: solid black 3px;
+}
+
+.dev-writeup p {
+    width: 100%;
+    padding-left: 20px;
+    color: rgb(114, 114, 114);
+}
+
+@media screen and (max-width: 480px) {
+   h2 {
+        font-size: 20px;
+    }
+
+    .des {
+        font-size: 20px;
+    }
+
+    .social-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 773px) {
+    .resume {
+        margin-bottom: 1rem;
+    }
+} 
+
+@media screen and (max-width: 769px) {
+
+    .About {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0.5rem;
+    }
+    
+
+    .resume {
+        margin-bottom: 15px;
+
+    }
+ 
+    .name-2 {
+        display: none;
+    }
+
+    .about-me {
+        background: #c7c7c7;
+        width: 100%;
+        height: 100%;
+        min-height: 0;
+        position: relative;
+        
+    }
+
+    .project {
+        margin-bottom: 0rem;
+    }
+
+    .about-me img {
+        width: 220px;
+        margin-top: 3rem;
+    }
+
+    .name {
+        padding-bottom: 3rem;
+    }
+
+    .about-me .name {
+        margin: 0;
+    }
+
+    .about-writeup {
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .hello {
+        font-size: 45px;
+    }
+
+    .dev-writeup {
+        word-spacing: 0;
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        border: none;
+        line-height: 23px;
+        text-align:left;
+    }
+
+    .about-content {
+        position: relative;
+        top: 3rem;
+        padding: 0rem 0rem;
+      
+    }
+
+    .dev-writeup p {
+        padding-left: 0;
+        margin-bottom: 20px;
+        text-decoration: none;
+        word-spacing: 0;
+        text-align: left;
+    }
+
+    .des {
+        color: rgb(66, 66, 66);
+        letter-spacing: 1.5px;
+        padding-top: 10px;
+    }
+
+    .owner-name {
+        font-weight: bold;
+        border-top: 1px solid grey;
+    }
+
+    .owner {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.owner {
+    text-align: center;
+}
+
+
+.socials {
+    text-align: right;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    color: black;
+    width: 3rem;
+}
+
+
+.skill h4 {
+    margin: 0;
+}
+
+.skillsList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    border-bottom: 1px solid grey;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.skillsList li img {
+    height: auto!important;
+    max-width: unset!important;
+    padding:.5em ;
+    width: 35px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
